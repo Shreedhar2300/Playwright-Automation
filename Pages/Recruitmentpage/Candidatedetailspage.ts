@@ -46,7 +46,7 @@ export class candidatedetails{
     }
     async uploadresume(){
         
-        await this.resume.setInputFiles("C:/Users/Shreedhar/Desktop/fileupload.txt")
+        await this.resume.setInputFiles("Testdata/dummydata.txt")
     }
     async checkboxclick(){
         await this.checkbox.click();

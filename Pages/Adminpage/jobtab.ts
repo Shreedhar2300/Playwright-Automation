@@ -35,7 +35,7 @@ export class locators{
     }
     async clickonbrowse(){
         
-        await this.browse.setInputFiles('C:/Users/Shreedhar/Desktop/fileupload.txt');
+        await this.browse.setInputFiles('Testdata/dummydata.txt');
     }
     async clickonaddnote(){
          await this.addnote.click();
