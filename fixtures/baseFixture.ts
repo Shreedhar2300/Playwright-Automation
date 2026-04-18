@@ -1,5 +1,5 @@
 import{test as base} from'@playwright/test'
-import { PageManager } from '../Pagemanager' 
+import { PageManager } from '../Pages/Pagemanager' 
 
 type Myfixture={pm:PageManager;};
 export const test=base.extend<Myfixture>({

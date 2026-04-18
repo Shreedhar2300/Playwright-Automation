@@ -21,6 +21,10 @@
     "@types/node": "^25.6.0"
   },
   "dependencies": {
-    "allure-playwright": "^3.7.1"
+    "allure-playwright": "^3.7.1",
+    "cross-env": "^10.1.0",
+    "csv-parse": "^6.2.1",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.4.2"
   }
 }

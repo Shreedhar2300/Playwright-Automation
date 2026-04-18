@@ -1,4 +1,4 @@
-import{test} from '../Pages/fixtures/baseFixture';
+import{test} from '../fixtures/baseFixture';
 import{expect} from '@playwright/test'
 
 test('successful login ',async({ pm })=>{
